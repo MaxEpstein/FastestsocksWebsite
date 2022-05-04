@@ -13,6 +13,8 @@ body{
     overflow:hidden;
 }
 
+
+
 #mainHeader{
     background-color: coral;
     color: #fff;
@@ -36,7 +38,11 @@ body{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    padding-right: 15px;
+    padding-right: 20px;
+}
+
+#navBar a:hover{
+    color: red;
 }
 
 #showcase{
@@ -76,6 +82,12 @@ body{
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+}
+
+#navList li:last-child{
+    margin-left: 22%;
+    /*background-image: url(/images/moon.png);
+    background-position: right;*/
 }
 
 /* only goes into effect if under max width */
