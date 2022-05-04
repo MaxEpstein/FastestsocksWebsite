@@ -28,8 +28,8 @@ body{
 
 
 #mainHeader{
-    background-color: coral;
-    color: #fff;
+    background-color: rgb(174, 10, 10);
+    color: rgb(255, 255, 0);
 }
 
 #navBar{
@@ -54,7 +54,7 @@ body{
 }
 
 #navBar a:hover{
-    color: red;
+    color: rgb(174, 10, 10);
 }
 
 #showcase{
@@ -119,45 +119,75 @@ body{
     font-size: 32px;
 }
 
-.socials ul{
-    padding: 0px;
-    margin: 0px;
-    padding-left: 0px;
-    list-style: square;
+.socials a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px;
 }
 
-.socials li{
+.socials ul{
+    padding: 0px;
+    padding-left: 0px;
+    list-style: square;
+    margin: 0px;
+}
+
+.socials ul li{
     padding-bottom: 3%;
     text-align: center;
     padding-top: 3%;
-    font-size: 32px;
+    font-size: 60px;
+    font-weight: bolder;
+
 }
 
 .socials li:first-child{
-
-    background-color:rgb(174, 0, 255);
+    background-color:rgb(0, 0, 0);
+    background-image: url(/images/twitch.png);
+    background-size:contain;
+    
+    
 }
 
 .socials li:nth-child(2){
-    background-color:rgb(255, 0, 0);
+    background-color:rgb(151, 102, 102);
+    font-weight: bolder;
+    background-image: url(/images/YouTube-Emblem.png);
+    background-size:contain;
 }
 .socials li:nth-child(3){
 
-    background-color:rgb(106, 0, 255);
+    background-color: slateblue;
+    background-image: url(/images/discord\ logo.png);
+    background-size:contain;
 }
 .socials li:nth-child(4){
 
-    background-color:rgb(0, 106, 255);
+    background-color:rgb(109, 246, 159);
+    background-image: url(/images/instagram\ logo.png);
+    background-size:contain;
+}
+.socials li:nth-child(5){
+
+    background-color:rgb(232, 149, 122);
+    background-image: url(/images/tiktok.png);
+    background-size:contain;
+}
+.socials li:nth-child(6){
+
+    background-color:rgb(103, 211, 253);
+    background-image: url(/images/twitter\ logo.png);
+    background-size:contain;
 }
 .socials li:last-child{
 
     background-color:rgb(243, 99, 183);
+    background-image: url(/images/dingding.png);
+    background-size:contain;
 }
 
-.socials a{
-    text-decoration: none;
-    color: #000;
-}
+
 
 #whiteboard{
     color: #fff;
@@ -225,7 +255,7 @@ body{
     display:block;
 }
 
-.my-form input[type="text"], .my-form textarea{
+.my-form input[type="text"], input[type="email"], .my-form textarea{
     padding: 8px;
     width: 100%;
 }
