@@ -105,7 +105,7 @@ body{
 }
 
 #navList li:last-child{
-    margin-left: 22%;
+    float: right;
     /*background-image: url(/images/moon.png);
     background-position: right;*/
 }
@@ -116,7 +116,7 @@ body{
     text-align: center;
     background-color: rgb(37, 37, 37);
     color: #fff;
-    font-size: 32px;
+    font-size: 64px;
 }
 
 .socials a{
@@ -224,10 +224,10 @@ body{
     color: #fff;
     background-color: rgb(37, 37, 37);
     text-align: center;
-    margin: 0px;
     padding-bottom: 20%;
     padding-top: 10px;
-    margin-bottom: 3%;
+    width: 100%;
+    margin: auto;
 }
 
 .button{
@@ -280,6 +280,21 @@ body{
 
 #button2{
     margin-left: 33%;
+}
+
+.button2 {
+    background-color: #fff;
+    font-size: 24px;
+    color: #333;
+    padding: 10px 25px;
+    margin: 15px;
+    margin-bottom: 50px;
+    border: none;
+}
+
+.button2:hover{
+    background-color: rgb(174, 10, 10);
+    color: #fff;
 }
 
 img{
